@@ -1,0 +1,32 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Yuri/Code/Ruby/bank_tech_test/spec/account_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Yuri/Code/Ruby/bank_tech_test/lib/account.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1474278986
+  }
+}
