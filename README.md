@@ -30,3 +30,9 @@ As a bank account holder
 So that I can start using my new account
 I would like to see that the opening balance is 0
 ```
+
+```
+As a bank account holder
+So that I can keep funds on my account
+I would like to be able to make deposits
+```
