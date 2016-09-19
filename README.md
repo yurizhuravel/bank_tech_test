@@ -36,3 +36,9 @@ As a bank account holder
 So that I can keep funds on my account
 I would like to be able to make deposits
 ```
+
+```
+As a bank account holder
+So that I can use funds on my account
+I would like to be able to make withdrawals
+```

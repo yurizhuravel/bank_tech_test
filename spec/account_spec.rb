@@ -8,12 +8,21 @@ describe Account do
     expect(account.balance).to eq 0
   end
 
-  describe '#deposit' do
-    it 'adds funds to the user\'s account' do
+  describe '#deposit and withdraw' do
+
+    before(:each) do
       account.deposit(1000)
+    end
+
+    it 'deposit adds funds to the user\'s account' do
       expect(account.balance).to eq 1000
     end
-  end
 
+    it 'withdraw removes funds from the user\'s account' do
+      account.withdraw(1000)
+      expect(account.balance).to eq 0
+    end
+
+  end
 
 end
