@@ -8,7 +8,7 @@ describe Account do
     expect(account.balance).to eq 0
   end
 
-  describe '#deposit and withdraw' do
+  describe '#deposit and #withdraw' do
 
     before(:each) do
       account.deposit(1000)
