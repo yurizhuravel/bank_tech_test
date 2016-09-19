@@ -42,3 +42,9 @@ As a bank account holder
 So that I can use funds on my account
 I would like to be able to make withdrawals
 ```
+
+```
+As a bank account holder
+So that I can't go overdrawn
+I would like to not be able to withdraw more than my current balance
+```
