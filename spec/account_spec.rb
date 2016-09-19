@@ -23,6 +23,10 @@ describe Account do
       expect(account.balance).to eq 0
     end
 
+    it 'users can\'t withdraw more than their current balance' do
+      expect{account.withdraw(1001)}.to raise_error "You do not have sufficient funds"
+    end
+
   end
 
 end
