@@ -48,3 +48,15 @@ As a bank account holder
 So that I can't go overdrawn
 I would like to not be able to withdraw more than my current balance
 ```
+
+```
+As a bank account holder
+So that I can monitor my cashflow
+I would like my transactions to be recorded in statements
+```
+
+```
+As a bank account holder
+So that I now when transactions happen
+I would like my transactions to have date stamps
+```

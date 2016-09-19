@@ -23,6 +23,10 @@ describe Statement do
       expect(statement.transactions[1]).to include(500.0)
     end
 
+    it 'adds date stamps to transactions' do
+      expect(statement.date_stamp).to include("2016")
+    end
+
   end
 
 end
